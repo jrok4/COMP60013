@@ -1,0 +1,4 @@
+Hostname: opopopop
+Kernel:   6.17.0-19-generic
+OS:       Ubuntu 24.04.3 LTS
+Date:     2026-05-01T20:07:28+00:00

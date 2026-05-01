@@ -1,0 +1,12 @@
+Status: active
+
+     To                         Action      From
+     --                         ------      ----
+[ 1] Nginx Full                 ALLOW IN    Anywhere                  
+[ 2] 3306                       ALLOW IN    127.0.0.1                 
+[ 3] 3306                       DENY IN     Anywhere                  
+[ 4] OpenSSH                    ALLOW IN    Anywhere                  
+[ 5] Nginx Full (v6)            ALLOW IN    Anywhere (v6)             
+[ 6] 3306 (v6)                  DENY IN     Anywhere (v6)             
+[ 7] OpenSSH (v6)               ALLOW IN    Anywhere (v6)             
+

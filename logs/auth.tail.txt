@@ -1,0 +1,200 @@
+2026-05-01T19:36:42.974788+00:00 opopopop gnome-keyring-daemon[2050]: The PKCS#11 component was already initialized
+2026-05-01T19:36:42.975458+00:00 opopopop gnome-keyring-daemon[2271]: discover_other_daemon: 1
+2026-05-01T19:36:42.975478+00:00 opopopop gnome-keyring-daemon[2050]: The Secret Service was already initialized
+2026-05-01T19:36:42.975688+00:00 opopopop gnome-keyring-daemon[2272]: discover_other_daemon: 1
+2026-05-01T19:36:42.984826+00:00 opopopop gnome-keyring-daemon[2275]: discover_other_daemon: 1
+2026-05-01T19:36:43.959182+00:00 opopopop polkitd[993]: Registered Authentication Agent for unix-session:2 (system bus name :1.78 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-05-01T19:36:44.845075+00:00 opopopop gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-05-01T19:36:44.866871+00:00 opopopop systemd-logind[1011]: Session c1 logged out. Waiting for processes to exit.
+2026-05-01T19:36:44.873886+00:00 opopopop polkitd[993]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-05-01T19:36:44.878788+00:00 opopopop systemd-logind[1011]: Removed session c1.
+2026-05-01T19:36:55.197731+00:00 opopopop (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-05-01T19:37:04.566931+00:00 opopopop sshd[2967]: Accepted publickey for vboxuser from 10.0.2.2 port 44134 ssh2: ED25519 SHA256:n1YZd5hZSzoHa5iwDjTl7sK0N2FdWVNzQI1FMqjIWsA
+2026-05-01T19:37:04.567966+00:00 opopopop sshd[2967]: pam_unix(sshd:session): session opened for user vboxuser(uid=1000) by vboxuser(uid=0)
+2026-05-01T19:37:04.571414+00:00 opopopop systemd-logind[1011]: New session 4 of user vboxuser.
+2026-05-01T19:37:47.884254+00:00 opopopop pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:37:47.885097+00:00 opopopop pkexec[3206]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-05-01T19:39:01.974091+00:00 opopopop CRON[3233]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-01T19:39:01.975284+00:00 opopopop CRON[3233]: pam_unix(cron:session): session closed for user root
+2026-05-01T19:45:02.001182+00:00 opopopop CRON[3311]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-01T19:45:02.003385+00:00 opopopop CRON[3311]: pam_unix(cron:session): session closed for user root
+2026-05-01T19:46:25.227964+00:00 opopopop sshd[3314]: Accepted publickey for vboxuser from 10.0.2.2 port 34858 ssh2: ED25519 SHA256:n1YZd5hZSzoHa5iwDjTl7sK0N2FdWVNzQI1FMqjIWsA
+2026-05-01T19:46:25.229678+00:00 opopopop sshd[3314]: pam_unix(sshd:session): session opened for user vboxuser(uid=1000) by vboxuser(uid=0)
+2026-05-01T19:46:25.234216+00:00 opopopop systemd-logind[1011]: New session 7 of user vboxuser.
+2026-05-01T19:46:53.937528+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/apt update
+2026-05-01T19:46:53.941896+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:47:30.780365+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:47:40.863226+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/apt install -y git
+2026-05-01T19:47:40.865782+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:47:40.866219+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:47:57.441390+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/apt install -y git
+2026-05-01T19:47:57.441705+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:47:58.176846+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:48:44.578601+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/apt install gh
+2026-05-01T19:48:44.579022+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:48:53.212177+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:49:46.911579+00:00 opopopop pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:49:46.912716+00:00 opopopop pkexec[3891]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-05-01T19:50:21.550777+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/sed -E -e s/[[:space:]]*#.*$// -e s|//.*$|| -e /^[[:space:]]*$/d -e /^[[:space:]]*;/d /etc/mysql/mysql.conf.d/mysqld.cnf
+2026-05-01T19:50:21.551820+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:50:21.553965+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:50:31.577151+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/cp /etc/logrotate.d/mysql-audit /home/vboxuser/nbm-artifact/mysql/
+2026-05-01T19:50:31.577985+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:50:31.580730+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:50:41.610008+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/mysqldump --no-data -u root nbmdb
+2026-05-01T19:50:41.610761+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:50:41.677973+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:50:51.696273+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/sed -E -e s/[[:space:]]*#.*$// -e s|//.*$|| -e /^[[:space:]]*$/d -e /^[[:space:]]*;/d /etc/nginx/nginx.conf
+2026-05-01T19:50:51.696997+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:50:51.699307+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:51:01.719959+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/sed -E -e s/[[:space:]]*#.*$// -e s|//.*$|| -e /^[[:space:]]*$/d -e /^[[:space:]]*;/d /etc/nginx/sites-available/default
+2026-05-01T19:51:01.720491+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:51:01.723102+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:51:11.775945+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/sed -E -e s/[[:space:]]*#.*$// -e s|//.*$|| -e /^[[:space:]]*$/d -e /^[[:space:]]*;/d /etc/nginx/sites-available/default-modsecurity.conf
+2026-05-01T19:51:11.776435+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:51:11.779621+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:51:21.873214+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/sed -E -e s/[[:space:]]*#.*$// -e s|//.*$|| -e /^[[:space:]]*$/d -e /^[[:space:]]*;/d /etc/modsecurity/modsecurity.conf
+2026-05-01T19:51:21.874025+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:51:21.876424+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:51:31.904156+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/sed -E -e s/[[:space:]]*#.*$// -e s|//.*$|| -e /^[[:space:]]*$/d -e /^[[:space:]]*;/d /etc/nginx/modsec/main.conf
+2026-05-01T19:51:31.904500+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:51:31.906019+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:51:41.924394+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/sed -E -e s/[[:space:]]*#.*$// -e s|//.*$|| -e /^[[:space:]]*$/d -e /^[[:space:]]*;/d /etc/ssh/sshd_config
+2026-05-01T19:51:41.924746+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:51:41.927185+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:51:51.946770+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+2026-05-01T19:51:51.947356+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:51:52.021797+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:52:02.043523+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/sbin/iptables -L -v -n
+2026-05-01T19:52:02.047673+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:52:02.050387+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:52:12.079244+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/rsync -a --exclude=.env --exclude=*.log /var/www/html/ /home/vboxuser/nbm-artifact/website/
+2026-05-01T19:52:12.079858+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:52:12.278831+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:52:22.308792+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/sed -i -E s/(define\\([\'"](DB_PASS|DB_PASSWORD)[\'"][^,]*,[[:space:]]*[\'"])[^\'"]*/\\1<REDACTED>/Ig /home/vboxuser/nbm-artifact/website/product.php
+2026-05-01T19:52:22.309405+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:52:22.311076+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:52:32.341360+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/sed -i -E s/(define\\([\'"](DB_PASS|DB_PASSWORD)[\'"][^,]*,[[:space:]]*[\'"])[^\'"]*/\\1<REDACTED>/Ig /home/vboxuser/nbm-artifact/website/site.php
+2026-05-01T19:52:32.342511+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:52:32.345726+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:52:42.375516+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/sed -i -E s/(define\\([\'"](DB_PASS|DB_PASSWORD)[\'"][^,]*,[[:space:]]*[\'"])[^\'"]*/\\1<REDACTED>/Ig /home/vboxuser/nbm-artifact/website/index.php
+2026-05-01T19:52:42.376148+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:52:42.377723+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:52:52.395999+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/sed -i -E s/(define\\([\'"](DB_PASS|DB_PASSWORD)[\'"][^,]*,[[:space:]]*[\'"])[^\'"]*/\\1<REDACTED>/Ig /home/vboxuser/nbm-artifact/website/contact.php
+2026-05-01T19:52:52.396567+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:52:52.398131+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:53:02.422894+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/nginx/nbm_access.log
+2026-05-01T19:53:02.423596+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:53:02.425502+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:53:12.450804+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/nginx/nbm_error.log
+2026-05-01T19:53:12.451611+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:53:12.452834+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:53:22.490806+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/nginx/modsec_audit.log
+2026-05-01T19:53:22.491149+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:53:22.492501+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:53:32.521445+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/mysql/mysql_audit.log
+2026-05-01T19:53:32.521754+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:53:32.523343+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:53:42.561900+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/auth.log
+2026-05-01T19:53:42.562663+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:53:42.564588+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:53:52.605373+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+2026-05-01T19:53:52.606050+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T19:53:52.654326+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T19:55:01.070022+00:00 opopopop CRON[4077]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-01T19:55:01.071672+00:00 opopopop CRON[4077]: pam_unix(cron:session): session closed for user root
+2026-05-01T19:56:57.249805+00:00 opopopop dbus-daemon[970]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-05-01T20:01:48.559340+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/rm -rf /home/vboxuser/nbm-artifact
+2026-05-01T20:01:48.560494+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:01:48.560528+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:02:07.343604+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/rm -rf /home/vboxuser/nbm-artifact
+2026-05-01T20:02:07.346047+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:02:07.354910+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:02:17.394948+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/test -f /etc/mysql/mysql.conf.d/mysqld.cnf
+2026-05-01T20:02:17.398715+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:02:17.405874+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:02:27.437195+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/cp /etc/mysql/mysql.conf.d/mysqld.cnf configs/mysql/mysqld.cnf
+2026-05-01T20:02:27.438055+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:02:27.439628+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:02:37.467126+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/chown vboxuser:vboxuser configs/mysql/mysqld.cnf
+2026-05-01T20:02:37.468699+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:02:37.473939+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:02:47.495406+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/test -f /etc/nginx/nginx.conf
+2026-05-01T20:02:47.496239+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:02:47.497994+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:02:57.536744+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/cp /etc/nginx/nginx.conf configs/nginx/nginx.conf
+2026-05-01T20:02:57.540879+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:02:57.549465+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:03:07.580670+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/chown vboxuser:vboxuser configs/nginx/nginx.conf
+2026-05-01T20:03:07.581240+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:03:07.582579+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:03:17.612237+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/test -f /etc/nginx/sites-available/default
+2026-05-01T20:03:17.612972+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:03:17.614190+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:03:27.634218+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/cp /etc/nginx/sites-available/default configs/nginx/default
+2026-05-01T20:03:27.634882+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:03:27.637440+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:03:37.665526+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/chown vboxuser:vboxuser configs/nginx/default
+2026-05-01T20:03:37.666138+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:03:37.667507+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:03:47.708426+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/test -f /etc/nginx/sites-available/default-modsecurity.conf
+2026-05-01T20:03:47.712084+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:03:47.718260+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:03:57.757907+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/cp /etc/nginx/sites-available/default-modsecurity.conf configs/nginx/default-modsecurity.conf
+2026-05-01T20:03:57.758339+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:03:57.759987+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:04:07.782633+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/chown vboxuser:vboxuser configs/nginx/default-modsecurity.conf
+2026-05-01T20:04:07.783520+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:04:07.786011+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:04:17.815471+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/test -f /etc/modsecurity/modsecurity.conf
+2026-05-01T20:04:17.815835+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:04:17.817168+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:04:27.835575+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/cp /etc/modsecurity/modsecurity.conf configs/modsecurity/modsecurity.conf
+2026-05-01T20:04:27.836316+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:04:27.837887+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:04:37.880547+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/chown vboxuser:vboxuser configs/modsecurity/modsecurity.conf
+2026-05-01T20:04:37.881355+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:04:37.882994+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:04:47.911107+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/test -f /etc/nginx/modsec/main.conf
+2026-05-01T20:04:47.911491+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:04:47.912760+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:04:57.933548+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/cp /etc/nginx/modsec/main.conf configs/modsecurity/main.conf
+2026-05-01T20:04:57.933880+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:04:57.935700+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:05:01.181479+00:00 opopopop CRON[4225]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-01T20:05:01.183122+00:00 opopopop CRON[4225]: pam_unix(cron:session): session closed for user root
+2026-05-01T20:05:07.983864+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/chown vboxuser:vboxuser configs/modsecurity/main.conf
+2026-05-01T20:05:07.988080+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:05:07.988117+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:05:18.017841+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/test -f /etc/ssh/sshd_config
+2026-05-01T20:05:18.018276+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:05:18.019794+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:05:28.090197+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/cp /etc/ssh/sshd_config configs/ssh/sshd_config
+2026-05-01T20:05:28.091155+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:05:28.093403+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:05:38.119405+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/chown vboxuser:vboxuser configs/ssh/sshd_config
+2026-05-01T20:05:38.119950+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:05:38.121241+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:05:48.147159+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+2026-05-01T20:05:48.147786+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:05:48.198126+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:05:58.215456+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/sbin/ufw status numbered
+2026-05-01T20:05:58.216087+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:05:58.269666+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:06:08.323232+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/cp -r /var/www/html/. website/
+2026-05-01T20:06:08.324176+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:06:08.327096+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:06:18.386329+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/chown -R vboxuser:vboxuser website/
+2026-05-01T20:06:18.386704+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:06:18.388103+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:06:28.443809+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/chmod -R u+rw website/
+2026-05-01T20:06:28.444262+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:06:28.445684+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:06:38.477467+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/nginx/access.log
+2026-05-01T20:06:38.481085+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:06:38.488718+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:06:48.531824+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/nginx/error.log
+2026-05-01T20:06:48.532405+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-05-01T20:06:48.533634+00:00 opopopop sudo: pam_unix(sudo:session): session closed for user root
+2026-05-01T20:06:58.551983+00:00 opopopop sudo: vboxuser : TTY=pts/1 ; PWD=/home/vboxuser/nbm-artifact ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/auth.log
+2026-05-01T20:06:58.552531+00:00 opopopop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
