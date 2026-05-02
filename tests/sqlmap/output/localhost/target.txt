@@ -1,1 +1,1 @@
-http://localhost/product.php?id=1 (GET)  # /usr/bin/sqlmap -u http://localhost/product.php?id=1 --batch --level=2 --risk=2 --output-dir=tests/sqlmap/output
+https://localhost/product.php?id=1 (GET)  # /usr/bin/sqlmap -u https://localhost/product.php?id=1 --batch --level=2 --risk=2 --output-dir=tests/sqlmap/output

@@ -1,12 +1,16 @@
 === sshd_config — relevant directives ===
+PermitRootLogin no
+PasswordAuthentication no
+PasswordAuthentication no
 
 === ~/.ssh/authorized_keys (fingerprints only — keys redacted) ===
 256 SHA256:n1YZd5hZSzoHa5iwDjTl7sK0N2FdWVNzQI1FMqjIWsA admin (ED25519)
 
 === ~/.ssh/ permissions ===
-drwx------ 2 vboxuser vboxuser 4096 Apr 12 14:36 /home/vboxuser/.ssh
-total 4
--rw------- 1 vboxuser vboxuser 87 Apr 12 14:36 authorized_keys
+drwx------ 2 vboxuser vboxuser 4096 May  2 13:19 /home/vboxuser/.ssh
+total 8
+-rw------- 1 vboxuser vboxuser  87 Apr 12 14:36 authorized_keys
+-rw-r--r-- 1 vboxuser vboxuser 142 May  2 13:19 known_hosts
 
 === Test login attempt with verbose output ===
 OpenSSH_9.6p1 Ubuntu-3ubuntu13.15, OpenSSL 3.0.13 30 Jan 2024
@@ -37,7 +41,6 @@ debug1: Remote protocol version 2.0, remote software version OpenSSH_9.6p1 Ubunt
 debug1: compat_banner: match: OpenSSH_9.6p1 Ubuntu-3ubuntu13.15 pat OpenSSH* compat 0x04000000
 debug2: fd 3 setting O_NONBLOCK
 debug1: Authenticating to localhost:22 as 'vboxuser'
-debug1: load_hostkeys: fopen /home/vboxuser/.ssh/known_hosts: No such file or directory
 debug1: load_hostkeys: fopen /home/vboxuser/.ssh/known_hosts2: No such file or directory
 debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts: No such file or directory
 debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts2: No such file or directory
@@ -76,12 +79,11 @@ debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit
 debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
 debug1: SSH2_MSG_KEX_ECDH_REPLY received
 debug1: Server host key: ssh-ed25519 SHA256:HYNX75w1bBiI+beDS+Mj8T8RxB5XZquSXZzf/6+MqOI
-debug1: load_hostkeys: fopen /home/vboxuser/.ssh/known_hosts: No such file or directory
 debug1: load_hostkeys: fopen /home/vboxuser/.ssh/known_hosts2: No such file or directory
 debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts: No such file or directory
 debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts2: No such file or directory
-Warning: Permanently added 'localhost' (ED25519) to the list of known hosts.
-debug1: check_host_key: hostkey not known or explicitly trusted: disabling UpdateHostkeys
+debug1: Host 'localhost' is known and matches the ED25519 host key.
+debug1: Found key in /home/vboxuser/.ssh/known_hosts:1
 debug1: ssh_packet_send2_wrapped: resetting send seqnr 3
 debug2: ssh_set_newkeys: mode 1
 debug1: rekey out after 134217728 blocks

@@ -57,7 +57,7 @@
 { [5 bytes data]
 < HTTP/2 200 
 < server: nginx
-< date: Sat, 02 May 2026 13:19:48 GMT
+< date: Sat, 02 May 2026 13:20:27 GMT
 < content-type: text/html; charset=UTF-8
 < x-content-type-options: nosniff
 < x-frame-options: SAMEORIGIN
@@ -69,7 +69,7 @@
 * Connection #0 to host localhost left intact
 HTTP/2 200 
 server: nginx
-date: Sat, 02 May 2026 13:19:48 GMT
+date: Sat, 02 May 2026 13:20:27 GMT
 content-type: text/html; charset=UTF-8
 x-content-type-options: nosniff
 x-frame-options: SAMEORIGIN
@@ -78,7 +78,7 @@ strict-transport-security: max-age=31536000; includeSubDomains
 content-security-policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'self'; frame-ancestors 'self';
 
 
-=== curl -vI http://localhost (should redirect to HTTPS) ===
+=== curl -vI https://localhost (should redirect to HTTPS) ===
 * Host localhost:80 was resolved.
 * IPv6: ::1
 * IPv4: 127.0.0.1
@@ -93,7 +93,7 @@ content-security-policy: default-src 'self'; script-src 'self'; style-src 'self'
 > 
 < HTTP/1.1 301 Moved Permanently
 < Server: nginx
-< Date: Sat, 02 May 2026 13:19:48 GMT
+< Date: Sat, 02 May 2026 13:20:27 GMT
 < Content-Type: text/html
 < Content-Length: 162
 < Connection: keep-alive
@@ -103,7 +103,7 @@ content-security-policy: default-src 'self'; script-src 'self'; style-src 'self'
 * Connection #0 to host localhost left intact
 HTTP/1.1 301 Moved Permanently
 Server: nginx
-Date: Sat, 02 May 2026 13:19:48 GMT
+Date: Sat, 02 May 2026 13:20:27 GMT
 Content-Type: text/html
 Content-Length: 162
 Connection: keep-alive

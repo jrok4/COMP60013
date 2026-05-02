@@ -23,3 +23,12 @@ tests/ssh/       SSH public-key authentication evidence
 tests/curl/      curl -vI output verifying HTTPS configuration
 tests/database/  MySQL schema dump (no row data)
 
+
+## Additional test artefacts
+
+tests/sqlmap/    sqlmap injection test against vulnerable endpoint
+tests/apachebench/ ApacheBench load-test results
+tests/ssh/       SSH public-key authentication evidence
+tests/curl/      curl -vI output verifying HTTPS configuration
+tests/database/  MySQL schema dump (no row data)
+
