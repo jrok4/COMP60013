@@ -1,3 +1,0 @@
-mysqldump: Got error: 1698: Access denied for user 'root'@'localhost' when trying to connect
-ERROR 1698 (28000): Access denied for user 'root'@'localhost'
-ERROR 1698 (28000): Access denied for user 'root'@'localhost'
